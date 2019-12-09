@@ -25,6 +25,9 @@ applications that run on BEAM. Inspired by many of such lists over the GitHub.
 
 ### Metrics
 
+- [beam_stats](https://github.com/xandkar/beam_stats) - Collect detailed VM
+  metrics and send to arbitrary, plugable backends (StatsD and Graphite
+  backends included).
 - [Elixometer](https://github.com/pinterest/elixometer) - thin Elixir wrapper over Exometer
 - [Exometer](https://github.com/Feuerlabs/exometer_core) - Erlang instrumentation package
 - [Fluxter](https://github.com/lexmag/fluxter) - InfluxDB writer for Elixir
