@@ -28,7 +28,7 @@ applications that run on BEAM. Inspired by many of such lists over the GitHub.
 - [Elixometer](https://github.com/pinterest/elixometer) - thin Elixir wrapper over Exometer
 - [Exometer](https://github.com/Feuerlabs/exometer_core) - Erlang instrumentation package
 - [Fluxter](https://github.com/lexmag/fluxter) - InfluxDB writer for Elixir
-- [Folsom](https://github.com/boundary/folsom) - expose Erlang events as metrics
+- [Folsom](https://github.com/folsom-project/folsom) - expose Erlang events as metrics
 - [`metrics`](https://github.com/benoitc/erlang-metrics) - generic interface to to a different metrics systems in Erlang
 - [Prometheus](https://github.com/deadtrickster/prometheus.erl) - Prometheus integration for Erlang
 - [Statix](https://github.com/lexmag/statix) - fast and reliable Elixir client for StatsD-compatible servers with some DogStatsD extensions (namely tags)
