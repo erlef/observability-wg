@@ -38,8 +38,8 @@ applications that run on BEAM. Inspired by many of such lists over the GitHub.
 - [Telemetry](https://github.com/beam-telemetry/telemetry) - dynamic dispatcher for Erlang metrics and instrumentations
   * [Telemetry.Poller](https://github.com/beam-telemetry/telemetry_poller) - periodically gather measurements and publish them as Telemetry events
   * [Telemetry.Metrics](https://github.com/beam-telemetry/telemetry_metrics) - common interface for defining metrics based on :telemetry events.
-  * [TelemetryMetricsStatsd](https://github.com/beam-telemetry/telemetry_metrics_statsd) - StatsD compatible Telemetry.Metrics reporter.
-  * [TelemetryMetricsPrometheus](https://github.com/beam-telemetry/telemetry_metrics_prometheus) - Prometheus compatible Telemetry.Metrics reporter.
+    * [TelemetryMetricsStatsd](https://github.com/beam-telemetry/telemetry_metrics_statsd) - StatsD compatible Telemetry.Metrics reporter.
+    * [TelemetryMetricsPrometheus](https://github.com/beam-telemetry/telemetry_metrics_prometheus) - Prometheus compatible Telemetry.Metrics reporter.
 - [vmstats](https://github.com/ferd/vmstats) - tiny Erlang app to generate information on the Erlang VM
 
 ### Tracing
