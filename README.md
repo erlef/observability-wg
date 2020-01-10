@@ -35,18 +35,20 @@ applications that run on BEAM. Inspired by many of such lists over the GitHub.
 - [`metrics`](https://github.com/benoitc/erlang-metrics) - generic interface to to a different metrics systems in Erlang
 - [Prometheus](https://github.com/deadtrickster/prometheus.erl) - Prometheus integration for Erlang
 - [Statix](https://github.com/lexmag/statix) - fast and reliable Elixir client for StatsD-compatible servers with some DogStatsD extensions (namely tags)
-- [Telemetry](https://github.com/beam-telemetry/telemetry) - dynamic dispatcher for Erlang metrics and instrumentations
+- [Telemetry][] - dynamic dispatcher for Erlang metrics and instrumentations
   * [Telemetry.Poller](https://github.com/beam-telemetry/telemetry_poller) - periodically gather measurements and publish them as Telemetry events
   * [Telemetry.Metrics](https://github.com/beam-telemetry/telemetry_metrics) - common interface for defining metrics based on :telemetry events.
     * [TelemetryMetricsStatsd](https://github.com/beam-telemetry/telemetry_metrics_statsd) - StatsD compatible Telemetry.Metrics reporter.
     * [TelemetryMetricsPrometheus](https://github.com/beam-telemetry/telemetry_metrics_prometheus) - Prometheus compatible Telemetry.Metrics reporter.
 - [vmstats](https://github.com/ferd/vmstats) - tiny Erlang app to generate information on the Erlang VM
 
+[Telemetry]: https://github.com/beam-telemetry/telemetry
+
 ### Tracing
 
 - [AppSignal](https://github.com/appsignal/appsignal-elixir) - AppSignal Elixir integration package for gathering metrics, errors, and traces
 - [New Relic](https://github.com/newrelic/elixir_agent) - New Relic's Elixir agent supports metrics, errors and distributed tracing
-- [~~OpenCenus~~](https://github.com/census-instrumentation/opencensus-erlang) (**ON HOLD, see [OpenTelemetry][ot]**) - implementation of Google's [OpenCensus.io](https://opencensus.io) tracing and monitoring with broad range of integrations:
+- [~~OpenCenus~~](https://github.com/census-instrumentation/opencensus-erlang) (**ON HOLD, see [OpenTelemetry][]**) - implementation of Google's [OpenCensus.io](https://opencensus.io) tracing and monitoring with broad range of integrations:
   * [Absinthe](https://github.com/opencensus-beam/opencensus_absinthe)
   * [DataDog APM & DogStatsD](https://github.com/opencensus-beam/opencensus_datadog)
   * [Elixir](https://github.com/opencensus-beam/opencensus_elixir)
@@ -58,14 +60,14 @@ applications that run on BEAM. Inspired by many of such lists over the GitHub.
   * [Plug](https://github.com/opencensus-beam/opencensus_plug)
   * [Prometheus](https://github.com/opencensus-beam/prometheus)
   * [Telemetry](https://github.com/opencensus-beam/opencensus_telemetry)
-- [OpenTelemetry][ot] - implementation of CNCF [OpenTelemetry][ot-official] for Erlang and Elixir
+- [OpenTelemetry][] - implementation of CNCF [OpenTelemetry][ot-official] for Erlang and Elixir
 - [Otter](https://github.com/Bluehouse-Technology/otter) - OpenTracing integration library for Erlang
-- [~~Spandex~~](https://github.com/spandex-project/spandex) (**ON HOLD, see [OpenTelemetry][ot]**) - tracing library for Elixir which supports DataDog APM. Integrations:
+- [~~Spandex~~](https://github.com/spandex-project/spandex) (**ON HOLD, see [OpenTelemetry][]**) - tracing library for Elixir which supports DataDog APM. Integrations:
   * [Ecto](https://github.com/spandex-project/spandex_ecto)
   * [Phoenix](https://github.com/spandex-project/spandex_phoenix)
 - [tracelog](https://github.com/opencensus-beam/tracelog) - logging handler that can transform structured logs into distributed tracing spans (for now supports only OpenCensus backend library)
 
-[ot]: https://github.com/open-telemetry/opentelemetry-erlang
+[OpenTelemetry]: https://github.com/open-telemetry/opentelemetry-erlang
 [ot-official]: https://opentelemetry.io
 
 ### Errors logging
