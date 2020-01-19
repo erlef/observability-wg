@@ -22,6 +22,7 @@ applications that run on BEAM. Inspired by many of such lists over the GitHub.
 - [`lager`](https://github.com/erlang-lager/lager) - popular logging framework with broad features set
 - [`logger`](http://www.erlang.org/doc/man/logger.html) - OTP 21+ built-in pluggable logger module
 - [`Logger`](https://hexdocs.pm/logger/Logger.html) - Elixir's built-in pluggable logger module that in recent Elixir versions also synchronises with Erlang's `logger` module
+- [`systemd`](https://hex.pm/packages/systemd) - library for integrating with systemd, it provides utilities for integrating with systemd's journal
 
 ### Metrics
 
