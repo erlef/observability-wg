@@ -36,8 +36,9 @@ applications that run on BEAM. Inspired by many of such lists over the GitHub.
     * [TelemetryMetricsStatsd](https://github.com/beam-telemetry/telemetry_metrics_statsd) - StatsD compatible Telemetry.Metrics reporter.
     * [TelemetryMetricsPrometheus](https://github.com/beam-telemetry/telemetry_metrics_prometheus) - Prometheus compatible Telemetry.Metrics reporter.
     * [TelemetryMetricsZabbix](https://github.com/lukaszsamson/telemetry_metrics_zabbix) - Zabbix compatible Telemetry.Metrics reporter.
-    * [`plug_telemetry_server_timings`](https://github.com/hauleth/plug_telemetry_server_timing) - add `telemetry` metrics to `plug` response as [`Server-Timing`][server-timing] header
-    
+    * [PromEx](https://github.com/akoutmos/prom_ex) - A library used to monitor your Elixir applications using telemetry, Prometheus and pre-packaged Grafana dashboards.
+    * [`plug_telemetry_server_timings`](https://github.com/hauleth/plug_telemetry_server_timing) - add `telemetry` metrics to `plug` response as [`Server-Timing`][server-timing] header.
+
 [server-timing]: https://w3c.github.io/server-timing/#the-server-timing-header-field
 
 #### Other
