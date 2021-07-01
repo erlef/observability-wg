@@ -1,4 +1,4 @@
-# EEF Observability WG
+# Observability Working Group
 
 Project for tracking the work of the Observability Working Group
 
